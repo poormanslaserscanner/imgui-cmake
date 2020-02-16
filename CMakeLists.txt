@@ -10,8 +10,8 @@ set(root ${CMAKE_CURRENT_SOURCE_DIR}/imgui)
 set(phdrs ${root}/imgui.h)
 set(hdrs ${root}/imstb_rectpack.h ${root}/imstb_textedit.h ${root}/imstb_truetype.h ${root}/imgui_internal.h ${root}/examples/imgui_impl_glfw.h ${root}/examples/imgui_impl_opengl3.h)
 
-set(srcs ${root}/imgui.cpp ${root}/imgui_draw.cpp ${root}/imgui_widgets.cpp ${root}/imgui_demo.cpp ${root}/examples/imgui_impl_glfw.cpp ${root}/examples/imgui_impl_opengl3.cpp)
-set(inst_srcs ${inst_src_dir}/imgui.cpp ${inst_src_dir}/imgui_draw.cpp ${inst_src_dir}/imgui_widgets.cpp ${inst_src_dir}/imgui_demo.cpp ${inst_src_dir}/imgui_impl_glfw.cpp ${inst_src_dir}/imgui_impl_opengl3.cpp)
+set(srcs              ${root}/imgui.cpp         ${root}/imgui_draw.cpp        ${root}/imgui_widgets.cpp         ${root}/imgui_demo.cpp ${root}/examples/imgui_impl_glfw.cpp ${root}/examples/imgui_impl_opengl3.cpp)
+set(inst_srcs ${inst_src_dir}/imgui.cpp ${inst_src_dir}/imgui_draw.cpp ${inst_src_dir}/imgui_widgets.cpp ${inst_src_dir}/imgui_demo.cpp ${inst_src_dir}/imgui_impl_glfw.cpp  ${inst_src_dir}/imgui_impl_opengl3.cpp)
 
 add_library(imgui INTERFACE)
 
